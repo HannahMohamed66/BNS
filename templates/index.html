@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Machine Learning Model</title>
+</head>
+<body>
+    <h1>Machine Learning Model</h1>
+    <form action="/predict" method="POST">
+        <label for="psr_name">PSR Name:</label>
+        <input type="text" id="psr_name" name="psr_name" required><br><br>
+        <label for="mp">Mp (M)®:</label>
+        <input type="number" step="0.01" id="mp" name="mp" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
